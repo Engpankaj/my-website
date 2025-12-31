@@ -37,7 +37,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
 }
@@ -276,38 +276,39 @@ body {
     font-weight: 600;
 }
 
+
 /* Download Section */
-.download-section {
-    text-align: center;
-    margin-top: 40px;
-}
-
 .download-btn {
-    display: inline-block;
-    background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
-    color: white;
-    text-decoration: none;
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    border: none;
-    cursor: pointer;
-}
-
-.download-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-    background: linear-gradient(135deg, #ff5252, #26d0ce, #42a5f5, #81c784);
-}
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            background: linear-gradient(135deg, #4ecdc4, #45b7d1, #96ceb4, #ff6b6b);
+        }
+        .download-section {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
 
 /* Footer */
 .footer {
     background: #333;
     color: white;
-    padding: 40px 0 20px;
+    padding: 20px 0 10px;
     text-align: center;
 }
 
@@ -331,7 +332,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.social-icons a:hover {
+.social-ss a:hover {
     color: #ffd93d;
     transform: scale(1.2);
 }
@@ -419,7 +420,7 @@ body {
     }
 
     .about .icons {
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px;
     }
 
@@ -463,6 +464,7 @@ body {
     .about h2 {
         font-size: 2rem;
     }
+    
 
     .footer-content h3 {
         font-size: 1.5rem;
